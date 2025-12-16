@@ -14,7 +14,8 @@ import toast, { Toaster } from 'react-hot-toast';
 // API CONFIGURATION
 // ============================================
 //const API_URL = 'http://localhost:5000/api';
-const API_URL = 'https://engrossery.onrender.com/api';
+const API_URL = "https://engrossery-d6eg.onrender.com/api";
+
 
 
 const api = axios.create({
