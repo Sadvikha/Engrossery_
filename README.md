@@ -127,11 +127,12 @@ GET	/api/user	User / Seller details
 
 ### 🧪 Notes
 
-Render free tier services sleep on inactivity, so the first API request may take a few seconds.
+1) Render free tier services sleep on inactivity, so the first API request may take a few seconds.
 
-Frontend and backend are fully decoupled and communicate only via hosted APIs.
+2) Frontend and backend are fully decoupled and communicate only via hosted APIs.
 
-No sensitive information is committed to the repository.
+3) No sensitive information is committed to the repository.
+
 
 ### 📌 Future Enhancements
 
