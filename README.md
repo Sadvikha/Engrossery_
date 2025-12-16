@@ -111,13 +111,13 @@ VITE_API_URL=https://engrossery-d6eg.onrender.com/api
 
 ### ⚙️ Local Development Setup
 ## 1️⃣ Clone the Repository
-git clone https://github.com/Sadvikha/Engrossery_.git
-cd Engrossery_
+- git clone https://github.com/Sadvikha/Engrossery_.git
+- cd Engrossery_
 
 ## 2️⃣ Backend Setup
-cd grocery-backend
-npm install
-npm start
+- cd grocery-backend
+- npm install
+- npm start
 
 
 Backend runs at:
@@ -125,9 +125,9 @@ Backend runs at:
 http://localhost:5000
 
 ## 3️⃣ Frontend Setup
-cd grocery-frontend
-npm install
-npm run dev
+- cd grocery-frontend
+- npm install
+- npm run dev
 
 
 Frontend runs at:
