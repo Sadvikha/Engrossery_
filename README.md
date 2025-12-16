@@ -58,29 +58,46 @@ The application is built using **React (Vite)** for the frontend and **Node.js +
 ## 📁 Project Structure (Monorepo)
 
 ```bash
-Engrossery_/
-│
-├── grocery-frontend/        # React (Vite) frontend
-│   ├── src/
-│   │   ├── components/
-│   │   ├── pages/
-│   │   ├── assets/
-│   │   └── App.jsx
-│   ├── public/
-│   └── package.json
-│
-├── grocery-backend/         # Node.js + Express backend
+Engrossery/
+├── grocery-backend/
+│   ├── config/
+│   │   └── db.js
+│   ├── middleware/
+│   │   └── authMiddleware.js
+│   ├── models/
+│   │   ├── User.js
+│   │   ├── Product.js
+│   │   └── Order.js
 │   ├── routes/
 │   │   ├── authRoutes.js
 │   │   ├── productRoutes.js
 │   │   ├── orderRoutes.js
 │   │   └── userRoutes.js
-│   ├── models/
-│   ├── middleware/
-│   ├── config/
+│   ├── .env
+│   ├── .gitignore
+│   ├── package.json
+│   ├── package-lock.json
 │   └── server.js
 │
-└── README.md
+├── grocery-frontend/
+│   ├── public/
+│   ├── src/
+│   │   ├── assets/
+│   │   ├── App.jsx
+│   │   ├── main.jsx
+│   │   └── index.css
+│   ├── index.html
+│   ├── vite.config.js
+│   ├── tailwind.config.js
+│   ├── postcss.config.js
+│   ├── eslint.config.js
+│   ├── package.json
+│   ├── package-lock.json
+│   └── README.md
+│
+├── .gitignore
+└── README.md  
+
 ```
 
 ### 🔐 Environment Variables
@@ -118,12 +135,12 @@ Frontend runs at:
 http://localhost:5173
 
 ### 🌐 API Endpoints Overview
-Method	Endpoint	Description
-POST	/api/auth/register	Register user
-POST	/api/auth/login	Login user
-GET	/api/products	Fetch products
-POST	/api/orders	Create order
-GET	/api/user	User / Seller details
+- Method	Endpoint	Description
+- POST	/api/auth/register	Register user
+- POST	/api/auth/login	Login user
+- GET	/api/products	Fetch products
+- POST	/api/orders	Create order
+- GET	/api/user	User / Seller details
 
 ### 🧪 Notes
 
@@ -136,15 +153,15 @@ GET	/api/user	User / Seller details
 
 ### 📌 Future Enhancements
 
-Admin-level dashboard
+- Admin-level dashboard
 
-Payment gateway integration
+- Payment gateway integration
 
-Advanced product filtering & search
+- Advanced product filtering & search
 
-Order tracking system
+- Order tracking system
 
-Improved analytics for sellers
+- Improved analytics for sellers
 
 ### 👤 Author
 
