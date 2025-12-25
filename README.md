@@ -134,6 +134,12 @@ Frontend runs at:
 
 http://localhost:5173
 
+
+Login as "Admin":
+
+- Username: admin@gmail.com
+- Password: admin123
+
 ### 🌐 API Endpoints Overview
 - Method	Endpoint	Description
 - POST	/api/auth/register	Register user
