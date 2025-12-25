@@ -2196,7 +2196,9 @@ function Feature({ icon, title, desc }) {
 // ============================================
 function AppContent() {
   const { currentView } = useApp();
-
+  
+  useEffect(() => { window.scrollTo(0, 0);}, [currentView]);
+  
   return (
     <div className="min-h-screen bg-white">
       <Toaster position="top-right" />
